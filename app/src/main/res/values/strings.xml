@@ -4,8 +4,8 @@
     <string name="edit_host">Enter host domain name</string>
     <string name="button_connect">Connect to Server</string>
     <string name="edit_question">Enter question</string>
-    <string name="num1">Enter 1st num</string>
-    <string name="num2">Enter 2nd num</string>
+    <string name="num1">Enter 1st number</string>
+    <string name="num2">Enter 2nd number</string>
     <string name="button_send">Send</string>
     <string name="text_comm_heading"><b><u>Determine the answer to a given question.</u></b>\n\nEnter the
         (abbreviated) question in the box.\nThen press the button.\n\nNote that a question of \"quit\" causes the

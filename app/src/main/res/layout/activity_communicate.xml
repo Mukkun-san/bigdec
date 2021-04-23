@@ -28,14 +28,7 @@
         android:layout_height="10dp"
         android:layout_width="match_parent" />
 
-    <EditText
-        android:id="@+id/edit_question"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_question"
-        android:layout_marginRight="30sp"
-        android:layout_marginLeft="30sp"
-        android:layout_marginBottom="10dp" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -59,13 +52,22 @@
             />
     </LinearLayout>
 
+    <EditText
+        android:id="@+id/edit_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_question"
+        android:layout_marginRight="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="122dp"
         android:layout_height="wrap_content"
-        android:text="@string/button_send"
         android:layout_gravity="center_horizontal"
-        android:onClick="sendQuestion" />
+        android:layout_margin="15dp"
+        android:onClick="sendQuestion"
+        android:text="@string/button_send" />
 
     <!-- Spacing and horizontal rule (line) to separate Button from TextView -->
 
